@@ -1,4 +1,4 @@
-banner-new-colors_07.png<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 	<head>
@@ -6,6 +6,15 @@ banner-new-colors_07.png<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitiona
 		<link rel="stylesheet" type="text/css" href="css/main.css" />
 		<script type="text/javascript" src="//use.typekit.net/wrt0gxi.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="js/slides.min.jquery.js"></script>
+		<script>
+			 $(function(){
+				$("#slides").slides({
+					generatePagination: false
+				});
+			  });
+		</script>
 	</head>
 
 	<body>
@@ -50,10 +59,28 @@ banner-new-colors_07.png<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitiona
 								</p>
 							</div>
 						</div>
+
+
+
+						<div id="slides">
+						<div class="slides_container">
+							<div><img src = "images/about-2.jpg" /></div>
+							<div><img src = "images/about-3.jpg" /></div>
+							<div><img src = "images/about-4.jpg" /></div>
+							<div><img src = "images/about-5.jpg" /></div>
+							<div><img src = "images/about-6.jpg" /></div>
+						</div>
+						<div class = "nextprevbuttons">
+							<a href="#" class="prev"><img src="images/arrow_l.png" alt="Arrow Prev" /></a>
+							<a href="#" class="next"><img src="images/arrow_r.png" alt="Arrow Next" /></a>
+						</div>
+					</div>
+
+
 					</div>
 				</div>
 		<div class="footer">
-		 	<div class="footercontent">
+			<div class="footercontent">
 				<div id="address">
 					<p>
 					36 East 20th Street<br />
